@@ -1,0 +1,11 @@
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+#end_of_line = lf
+#设置的是换行问题，跟操作系统有关
+insert_final_newline = true
+trim_trailing_whitespace = true
+#删除尾随空格

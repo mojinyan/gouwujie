@@ -1,10 +1,20 @@
 <template>
   <div >
-    企鹅
+    <Tabbar></Tabbar>
+    <router-view/>
   </div>
-  <router-view/>
+
 </template>
-
+<script>
+  import Tabbar from './components/common/tabbar/Tabbar'
+  import TabBarItem from './components/common/tabbar/Tab-bar-item'
+  export default {
+    name:'App',
+    components:{
+      Tabbar
+    }
+  }
+</script>
 <style>
-
+@import "assets/css/base.css";
 </style>
